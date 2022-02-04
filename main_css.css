@@ -1,0 +1,21 @@
+.home_top {
+  background: url(./assets/3615135.jpg);
+  background-position: top;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+@media screen and (min-width: 880px) {
+ .home_top {
+   background-position: center;
+   background-size: cover;
+ }
+}
+
+.card{
+  background: transparent;
+}
+
+.imgcard{
+  object-fit: cover;
+}
