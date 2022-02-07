@@ -10,7 +10,7 @@
   <title>Nos évenements</title>
 </head>
 
-<body class="home_top">
+<body class="home_top position-relative">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light fixed-top">
     <div class="container-fluid justify-content-between">
       <a class="navbar-brand ps-md-4" href="./index.html">Les producteurs réunis</a>
@@ -40,7 +40,7 @@
   <section class="evenement mb-3">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-xl-4">
           <div class="card">
             <img src="assets/pexels-trinity-kubassek-288621.jpg" class="card-img-top" alt="Photo de mouton">
             <div class="card-body">
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-xl-4">
           <div class="card">
             <img src="assets/pexels-jefferson-lucena-10153231.jpg" class="card-img-top" alt="Traite de vache">
             <div class="card-body">
@@ -116,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-xl-4">
           <div class="card">
             <img src="assets/pexels-maarten-van-den-heuvel-2284166.jpg" class="card-img-top" alt="cuisine">
             <div class="card-body">
@@ -158,11 +158,15 @@
       </div>
     </div>
   </section>
-  <section class="footer bg-dark">
+  <section class="footer bg-dark bottom-0 position-absolute w-100">
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-center align-items-center py-3">
-        <div class="col-md-4 d-flex align-items-center">
-          <span class="text-muted">© 2022 les légumes abandonnés</span>
+        <div class="d-flex align-items-center">
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="text-muted">© 2022 les
+            producteurs réunis
+            <span itemprop="streetAddress">13 rue du marechal juin</span>
+            <span itemprop="postalCode">68390</span>
+            <span itemprop="addressLocality">Sausheim</span></span>
         </div>
       </footer>
     </div>

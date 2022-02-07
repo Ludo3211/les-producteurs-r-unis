@@ -1,3 +1,12 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body, html {
+  height: 100%;
+}
+
 .home_top {
   background: url(./assets/3615135.jpg);
   background-position: top;
